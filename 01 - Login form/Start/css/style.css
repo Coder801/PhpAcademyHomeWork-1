@@ -5,3 +5,45 @@
   --textColor: rgba(152, 152, 152, 1);
   --headlineColor: var(--secondaryColor);
 }
+.conteiner {
+margin: 250px auto 0 800px;
+
+}
+.conteiner1 {
+  width: 325px;
+  height: 480px;
+  background-color: white;
+  text-align: center;
+  border: 5px solid grey;
+  float: left;
+}
+.conteiner2 {
+  width: 355px;
+  height: 480px;
+  background-color: #3366ff;
+  text-align: center;
+  border: 5px solid grey;
+  float: left;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  padding-left: 15px;
+}
+input[type="submit"] {
+  width: 270px;
+  height: 40px;
+  font-size: 18px;
+  background: blue;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background: #4c79ff;
+}
+
+p {
+  color: white;
+  background: #3366ff;
+}
